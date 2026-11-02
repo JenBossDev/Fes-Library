@@ -14,6 +14,11 @@ nav {
 img {
   width: 100%;
 }
+
+.p {
+  line-height: 1.5;
+  
+}
 .nav__container {
   width: 100%;
   max-width: 1200px;
@@ -145,15 +150,19 @@ HIGHLIGHTS
 
 .highlight__wrapper {
   display: flex;
+  justify-content: space-between;
+  gap: 24px;
+
 }
 
 .highlight {
-  display: flex;
-  padding: 0 24px;
+  flex: 1;
+  min-width: 0;
   width: calc(100% / 3);
-  align-items: center;
-  justify-content: center;
+  display: flex;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .highlight__para {
@@ -171,4 +180,9 @@ HIGHLIGHTS
   border-radius: 4px;
   font-size: 32px;
   margin-bottom: 24px;
+}
+
+.highlight__subtitle {
+  font-size: 20px;
+  margin-bottom: 16px;
 }
