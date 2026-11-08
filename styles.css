@@ -231,7 +231,7 @@ FEATURES
 */
 
 #features {
-  padding-top: 8vw.;
+  padding-top: 8vw;
   background-color: rgba(115, 66, 214, 0.1);
 }
 
@@ -256,6 +256,7 @@ h3 {
 .books {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .book {
