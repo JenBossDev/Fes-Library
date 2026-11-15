@@ -82,7 +82,7 @@ li {
 }
 
 .menu__backdrop {
-  position: absolute;
+  position: fixed;
   background-color: #242424;
   top: 0;
   left: 0;
@@ -101,7 +101,7 @@ li {
   opacity: 1;
 }
 
-.menu--open {
+.menu-open {
   max-height: 100vh;
   overflow-y: hidden;
 }
@@ -424,7 +424,7 @@ footer {
   }
 }
 
-@media (max-width: 550px) {
+@media {
   .nav__links {
     display: none;
   }
@@ -434,6 +434,7 @@ footer {
   }
 
   .highlight {
+    flex: none;
     width: 100%;
   }
 }
