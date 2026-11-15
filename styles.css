@@ -256,7 +256,7 @@ HIGHLIGHTS
   display: flex;
   justify-content: space-between;
   gap: 24px;
-  
+  flex-wrap: wrap;
 }
 
 .highlight {
@@ -435,6 +435,9 @@ footer {
 
   .highlight {
     width: 100%;
-    margin-bottom: 24px;
   }
+}
+
+.highlight:not(:last-child) {
+  margin-bottom: 24px;
 }
