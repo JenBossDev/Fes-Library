@@ -256,6 +256,7 @@ HIGHLIGHTS
   display: flex;
   justify-content: space-between;
   gap: 24px;
+  
 }
 
 .highlight {
@@ -265,6 +266,7 @@ HIGHLIGHTS
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .highlight__para {
@@ -426,12 +428,13 @@ footer {
   .nav__links {
     display: none;
   }
-}
 
-.nav__links {
-  display: none;
-}
+  .btn__menu {
+    display: block;
+  }
 
-.btn__menu {
-  display: block;
+  .highlight {
+    width: 100%;
+    margin-bottom: 24px;
+  }
 }
